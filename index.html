@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    
+    <style>
+        
+        body {
+            font-family: sans-serif;
+        }
+.navbar {
+  background-color: royalblue;
+  display: flex;
+  padding: 16px 20px;
+    height: 160px;
+  font-family: sans-serif;
+  font-size: 1.1em;
+}
+.navbar-items,
+.navbar-items_right {
+  display: flex;
+  align-items: center;
+}
+.navbar__Link {
+  padding-right: 8px;
+}
+.navbar__Link-toggle {
+  display: none;
+}
+.navbar-items_right {
+  margin-left: auto;
+}
+@media only screen and (max-width: 768px) {
+  #image {
+    width: 560px;
+  }
+  .navbar-items,
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-items,
+  .navbar-items_right {
+    display: none;
+  }
+  .navbar-items_right {
+    margin-left: 0;
+  }
+  .navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+        .cont1{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            padding-top: 100px;
+            padding-left: 100px;            
+        }
+        h1 {
+            font-size: 3em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+           font-size: 1.5em; 
+        }
+.cont2 {
+  display: flex;
+  background-color: royalblue;
+  width: auto;
+  height: 80px;
+  justify-content: flex-start;
+}
+.cont2 div {
+  flex-direction: row;
+  margin: 10px;
+  line-height: 30px;
+  font-size: 1.1em;
+  align-self: center;
+}
+button {
+  width: 70%;
+  background-color: RoyalBlue;
+  color: white;
+  padding: 13px 18px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+    </style>
+    
+    </head>
+    
+<body>
+    
+         
+    
+    
+<header id="header">
+  <div class="parent">
+    <div class="navbar">
+      <div class="navbar__Link navbar__Link-brand"><a href="https://macexperts.gr" target="_blank"><img src="logo" height="160px" id="header-img"/></a>
+      </div>
+      <div class="navbar__Link navbar__Link-toggle">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+       <nav class="navbar-items_right" id="nav-bar">
+        <div class="navbar__Link">
+          <a href="#menu" class="nav-link">Menu</a>
+        </div>
+        <div class="navbar__Link">
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="navbar__Link">
+          <a href="#about" class="nav-link">About</a>
+        </div>
+            <div class="navbar__Link">
+          <a href="#github" class="nav-link"><i class="fab fa-github fa-1x"></i></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+<section class="cont1">
+    <div>
+        <h1>Build your team with us</h1>
+    </div>
+    <div>
+        <h2>Welcome to your Teamathon site.</h2>
+    </div>
+    <div>
+        <h3>Now go build some awesome teams.</h3>
+    </div>
+    <div>
+        <button>Log in / Sign in</button>
+    </div>
+</section>
+
+
+  <div class="cont2">
+    <div class="nav-link">
+      © Copyright 2018
+    </div>
+    <div class="foot">
+      <a  class="nav-link" href="#privacy">Privacy</a>
+    </div>
+    <div class="foot">
+      <a class="nav-link" href="#contact">Contact</a>
+    </div>
+  </div>
+
+    
+    
+        
+    
+    
+    </body>
+</html>
